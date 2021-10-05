@@ -1,0 +1,54 @@
+<html>
+<body class="text-white">
+<h1>Class-4</h1>
+<h2>This is the class that teaches the JS function to change colors</h2>
+<h3 id="heading-green" onmouseover="setSquareColorBlue()" onmouseout="setSquareColorBlue()">Blue color</h3>
+<h3 id="heading-pink" onmouseover="setSquareColorPink()" onmouseout="setSquareColorPink()">Pink color</h3>
+<h3 id="heading-white" onmouseover="setSquareColorWhite()" onmouseout="setSquareColorWhite()">White color</h3>
+<h3 id="heading-red" onmouseover="setSquareColorRed()" onmouseout="setSquareColorGreen()">Red color</h3>
+<style>
+    .text-white {
+        color:rgb(20, 10, 10);
+        background-color: rgb(247, 242, 242);
+        padding: 30px;
+        margin: 30px;
+    }
+    #demo,#heading-green
+    {
+        color:blue
+    }
+    .font-size {
+        font-size: 10px;
+    }
+    #square {
+        height: 500px;
+        width: 500px;
+        background-color: rgb(95, 138, 104);
+    }
+    #square-red,#heading-red {
+        color: red;
+    }
+    #heading-white
+    {
+          color: white;
+          background-color: black;
+                  width: 150px;
+    }
+    #heading-pink
+    {
+          color: pink;
+          background-color: white;
+                  width: 150px;          
+    }
+    #heading-red
+    {
+        color: red;
+          background-color: white;
+                  width: 150px;   
+    }
+</style>
+<script src="./Day4_01_changeColor.js">
+</script>
+<p id='square'></p>
+</body>
+</html>
